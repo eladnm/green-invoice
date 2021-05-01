@@ -1,0 +1,142 @@
+body{
+    
+    padding: 0;
+    margin: 0;
+
+}
+
+
+.bg-image{
+    width: 50%;
+    background: url(../img/green_login_page\ \(1\).svg);
+    background-position: center center;
+    background-size: cover;
+    background-color: #FFE4E6
+}
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+}
+
+.form_wrapper {
+    width: 50%;
+    position: relative;
+    padding: 2rem;
+}
+
+.title{
+    position: absolute;
+    top: 0;
+    right: 30px;
+}
+
+.login-form{
+	font-family: 'Open Sans Condensed', arial, sans;
+	width: 500px;
+	padding: 30px;
+	background: #FFFFFF;
+    width: 50%;
+
+}
+.login-form input[type="text"],
+.login-form input[type="date"],
+.login-form input[type="email"],
+.login-form input[type="url"],
+.login-form input[type="password"],
+
+.login-form select 
+{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	outline: none;
+	display: block;
+	width: 100%;
+	padding: 7px;
+	border: none;
+	border-bottom: 1px solid #ddd;
+	background: transparent;
+	margin-bottom: 10px;
+	font: 16px Arial, Helvetica, sans-serif;
+	height: 45px;
+}
+
+
+.login-form input[type="button"]:hover, 
+.login-form input[type="submit"]:hover {
+	background:linear-gradient(to bottom, #34CACA 5%, #30C9C9 100%);
+	background-color:#34CACA;
+}
+
+h1{
+    color: #4ADE80;;
+}
+
+label{
+    color: rgba(0,0,0,0.5);
+    font-size: 14px;
+}
+
+.mail-part label{
+    text-decoration: underline;
+    color: rgba(0,0,0,0.5);
+    font-size: 14px;
+}
+
+input{
+    text-align: right;
+    margin-bottom: 3px !important;
+    margin-top: 40px;
+}
+.social{   
+    display: flex;
+    justify-content: center;
+}
+.social a{
+    text-decoration: none;
+  }
+
+i{
+    padding-right: 5px;
+    padding-top: 2px;
+}
+
+.btn-green {
+    background-color: #4ADE80;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    border-radius: 4rem;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 65%;
+
+}
+
+
+
+.btn-blue {
+    display: flex;
+    align-items: center;
+    width: 45%;
+    float: left;
+    color: blue;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    border-radius: 4rem;
+    border: 1px solid blue!important;
+    justify-content: center;
+}
+
+.forgot-password {
+    color: rgba(0,0,0,0.5);
+    font-size: 14px;
+}
